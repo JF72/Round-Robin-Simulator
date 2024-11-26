@@ -1,0 +1,8 @@
+Round Robin:
+A form of scheduler that slices the run time of a process into a given time quanta. The time quanta is typically set to the average time of each process.
+Why we use Round Robin (RR)?:
+As opposed to First-come First-serve (FCFS), RR allows for smaller processes to be complete in the chance they come after a long process.
+It allows for fairness in execution and reduces delays. Additonally, it allows for more control as we know how long a process should be allowed to run for.
+About this version:
+In this instance I picked a time quanta of two seconds as the range was from one to five leaning towards 2.
+This scheduler is meant to run concurrently with a simulator that will send processes.
